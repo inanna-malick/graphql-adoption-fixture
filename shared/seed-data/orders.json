@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "ord_1001",
+    "customerRef": "cus_001",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "5385 Alder Street",
+      "city": "Portland",
+      "region": "OR",
+      "postalCode": "97209",
+      "country": "US"
+    },
+    "placedAt": "2025-01-01T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 1999,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-014",
+        "productName": "Compact Bin Divider",
+        "unitPriceCents": 8048,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 14045
+  },
+  {
+    "id": "ord_1002",
+    "customerRef": "cus_002",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "7305 Birch Street",
+      "city": "Austin",
+      "region": "TX",
+      "postalCode": "78701",
+      "country": "US"
+    },
+    "placedAt": "2025-02-02T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9698,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 2298,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-015",
+        "productName": "Ventilated Conveyor Roller",
+        "unitPriceCents": 8698,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 85372
+  },
+  {
+    "id": "ord_1003",
+    "customerRef": "cus_003",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "8523 Cedar Street",
+      "city": "Rochester",
+      "region": "NY",
+      "postalCode": "14604",
+      "country": "US"
+    },
+    "placedAt": "2025-03-03T11:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-014",
+        "productName": "Compact Bin Divider",
+        "unitPriceCents": 8048,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 1798,
+        "quantity": 2
+      }
+    ],
+    "totalCents": 27740
+  },
+  {
+    "id": "ord_1004",
+    "customerRef": "cus_004",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "466 Dogwood Street",
+      "city": "Boise",
+      "region": "ID",
+      "postalCode": "83702",
+      "country": "US"
+    },
+    "placedAt": "2025-04-04T12:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-024",
+        "productName": "Weatherproof Tote Bin",
+        "unitPriceCents": 6148,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-007",
+        "productName": "Anti-Static Strapping Kit",
+        "unitPriceCents": 2198,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-004",
+        "productName": "Collapsible Skid Plate",
+        "unitPriceCents": 9298,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 1798,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 57572
+  },
+  {
+    "id": "ord_1005",
+    "customerRef": "cus_005",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "7929 Elm Street",
+      "city": "Tacoma",
+      "region": "WA",
+      "postalCode": "98402",
+      "country": "US"
+    },
+    "placedAt": "2025-05-05T13:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9698,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-024",
+        "productName": "Weatherproof Tote Bin",
+        "unitPriceCents": 6148,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7648,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-003",
+        "productName": "Heavy-Duty Label Printer",
+        "unitPriceCents": 3048,
+        "quantity": 2
+      }
+    ],
+    "totalCents": 117966
+  },
+  {
+    "id": "ord_1006",
+    "customerRef": "cus_006",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "8327 Fir Street",
+      "city": "Akron",
+      "region": "OH",
+      "postalCode": "44308",
+      "country": "US"
+    },
+    "placedAt": "2025-06-06T14:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2199,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-018",
+        "productName": "Collapsible Ratchet Strap",
+        "unitPriceCents": 4548,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 24789
+  },
+  {
+    "id": "ord_1007",
+    "customerRef": "cus_007",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "4526 Ginkgo Street",
+      "city": "Fresno",
+      "region": "CA",
+      "postalCode": "93721",
+      "country": "US"
+    },
+    "placedAt": "2025-01-07T15:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-008",
+        "productName": "Modular Tote Bin",
+        "unitPriceCents": 2798,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 16788
+  },
+  {
+    "id": "ord_1008",
+    "customerRef": "cus_008",
+    "status": "cancelled",
+    "shippingAddress": {
+      "line1": "1996 Hawthorn Street",
+      "city": "Mobile",
+      "region": "AL",
+      "postalCode": "36602",
+      "country": "US"
+    },
+    "placedAt": "2025-02-08T16:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9998,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 1998,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-014",
+        "productName": "Compact Bin Divider",
+        "unitPriceCents": 8348,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-013",
+        "productName": "Low-Profile Corner Guard",
+        "unitPriceCents": 1698,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 62524
+  },
+  {
+    "id": "ord_1009",
+    "customerRef": "cus_009",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "450 Ironwood Street",
+      "city": "Duluth",
+      "region": "MN",
+      "postalCode": "55802",
+      "country": "US"
+    },
+    "placedAt": "2025-03-09T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7748,
+        "quantity": 5
+      }
+    ],
+    "totalCents": 38740
+  },
+  {
+    "id": "ord_1010",
+    "customerRef": "cus_010",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "195 Juniper Street",
+      "city": "Provo",
+      "region": "UT",
+      "postalCode": "84601",
+      "country": "US"
+    },
+    "placedAt": "2025-04-10T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-023",
+        "productName": "Reinforced Strapping Kit",
+        "unitPriceCents": 1098,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-012",
+        "productName": "Stackable Cargo Net",
+        "unitPriceCents": 7948,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-013",
+        "productName": "Low-Profile Corner Guard",
+        "unitPriceCents": 1948,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-022",
+        "productName": "Modular Load Bar",
+        "unitPriceCents": 5798,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 84764
+  },
+  {
+    "id": "ord_1011",
+    "customerRef": "cus_011",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "2668 Kingsley Street",
+      "city": "Portland",
+      "region": "OR",
+      "postalCode": "97209",
+      "country": "US"
+    },
+    "placedAt": "2025-05-11T11:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-006",
+        "productName": "Insulated Load Bar",
+        "unitPriceCents": 548,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-021",
+        "productName": "Anti-Static Dock Bumper",
+        "unitPriceCents": 1998,
+        "quantity": 5
+      }
+    ],
+    "totalCents": 12730
+  },
+  {
+    "id": "ord_1012",
+    "customerRef": "cus_012",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "2229 Larch Street",
+      "city": "Austin",
+      "region": "TX",
+      "postalCode": "78701",
+      "country": "US"
+    },
+    "placedAt": "2025-06-12T12:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7748,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-003",
+        "productName": "Heavy-Duty Label Printer",
+        "unitPriceCents": 2848,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 40332
+  },
+  {
+    "id": "ord_1013",
+    "customerRef": "cus_013",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "182 Maple Street",
+      "city": "Rochester",
+      "region": "NY",
+      "postalCode": "14604",
+      "country": "US"
+    },
+    "placedAt": "2025-01-13T13:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-026",
+        "productName": "Stackable Hand Truck",
+        "unitPriceCents": 1148,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-003",
+        "productName": "Heavy-Duty Label Printer",
+        "unitPriceCents": 3198,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-018",
+        "productName": "Collapsible Ratchet Strap",
+        "unitPriceCents": 4548,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 46968
+  },
+  {
+    "id": "ord_1014",
+    "customerRef": "cus_014",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "1976 Nutmeg Street",
+      "city": "Boise",
+      "region": "ID",
+      "postalCode": "83702",
+      "country": "US"
+    },
+    "placedAt": "2025-02-14T14:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-006",
+        "productName": "Insulated Load Bar",
+        "unitPriceCents": 448,
+        "quantity": 5
+      }
+    ],
+    "totalCents": 2240
+  },
+  {
+    "id": "ord_1015",
+    "customerRef": "cus_015",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "8334 Olive Street",
+      "city": "Tacoma",
+      "region": "WA",
+      "postalCode": "98402",
+      "country": "US"
+    },
+    "placedAt": "2025-03-15T15:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-011",
+        "productName": "Precision Caster Wheel",
+        "unitPriceCents": 10198,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-004",
+        "productName": "Collapsible Skid Plate",
+        "unitPriceCents": 8998,
+        "quantity": 2
+      }
+    ],
+    "totalCents": 58788
+  },
+  {
+    "id": "ord_1016",
+    "customerRef": "cus_016",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "1941 Poplar Street",
+      "city": "Akron",
+      "region": "OH",
+      "postalCode": "44308",
+      "country": "US"
+    },
+    "placedAt": "2025-04-16T16:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7648,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9598,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-009",
+        "productName": "Reinforced Edge Protector",
+        "unitPriceCents": 4948,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 60434
+  },
+  {
+    "id": "ord_1017",
+    "customerRef": "cus_017",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "4350 Quince Street",
+      "city": "Fresno",
+      "region": "CA",
+      "postalCode": "93721",
+      "country": "US"
+    },
+    "placedAt": "2025-05-17T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-025",
+        "productName": "Precision Edge Protector",
+        "unitPriceCents": 6948,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-017",
+        "productName": "Heavy-Duty Shelf Bracket",
+        "unitPriceCents": 7398,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2199,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 59232
+  },
+  {
+    "id": "ord_1018",
+    "customerRef": "cus_018",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "461 Rowan Street",
+      "city": "Mobile",
+      "region": "AL",
+      "postalCode": "36602",
+      "country": "US"
+    },
+    "placedAt": "2025-06-18T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-005",
+        "productName": "Quick-Release Dock Bumper",
+        "unitPriceCents": 2448,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-011",
+        "productName": "Precision Caster Wheel",
+        "unitPriceCents": 10198,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-015",
+        "productName": "Ventilated Conveyor Roller",
+        "unitPriceCents": 8598,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 59684
+  },
+  {
+    "id": "ord_1019",
+    "customerRef": "cus_019",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "510 Sycamore Street",
+      "city": "Duluth",
+      "region": "MN",
+      "postalCode": "55802",
+      "country": "US"
+    },
+    "placedAt": "2025-01-19T11:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-028",
+        "productName": "Compact Cargo Net",
+        "unitPriceCents": 4148,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 1998,
+        "quantity": 5
+      }
+    ],
+    "totalCents": 14138
+  },
+  {
+    "id": "ord_1020",
+    "customerRef": "cus_020",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "9065 Tamarack Street",
+      "city": "Provo",
+      "region": "UT",
+      "postalCode": "84601",
+      "country": "US"
+    },
+    "placedAt": "2025-02-20T12:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-018",
+        "productName": "Collapsible Ratchet Strap",
+        "unitPriceCents": 4348,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-030",
+        "productName": "Wide-Mouth Bin Divider",
+        "unitPriceCents": 9548,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-015",
+        "productName": "Ventilated Conveyor Roller",
+        "unitPriceCents": 8698,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 108624
+  },
+  {
+    "id": "ord_1021",
+    "customerRef": "cus_002",
+    "status": "cancelled",
+    "shippingAddress": {
+      "line1": "2823 Alder Street",
+      "city": "Portland",
+      "region": "OR",
+      "postalCode": "97209",
+      "country": "US"
+    },
+    "placedAt": "2025-03-21T13:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-016",
+        "productName": "Wide-Mouth Pallet Wrap",
+        "unitPriceCents": 1198,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 4792
+  },
+  {
+    "id": "ord_1022",
+    "customerRef": "cus_014",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "4977 Birch Street",
+      "city": "Austin",
+      "region": "TX",
+      "postalCode": "78701",
+      "country": "US"
+    },
+    "placedAt": "2025-04-22T14:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7748,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-008",
+        "productName": "Modular Tote Bin",
+        "unitPriceCents": 2398,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-030",
+        "productName": "Wide-Mouth Bin Divider",
+        "unitPriceCents": 9398,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 60682
+  },
+  {
+    "id": "ord_1023",
+    "customerRef": "cus_014",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "1927 Cedar Street",
+      "city": "Rochester",
+      "region": "NY",
+      "postalCode": "14604",
+      "country": "US"
+    },
+    "placedAt": "2025-05-23T15:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-017",
+        "productName": "Heavy-Duty Shelf Bracket",
+        "unitPriceCents": 7198,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9498,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-018",
+        "productName": "Collapsible Ratchet Strap",
+        "unitPriceCents": 4548,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 90328
+  },
+  {
+    "id": "ord_1024",
+    "customerRef": "cus_003",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "2361 Dogwood Street",
+      "city": "Boise",
+      "region": "ID",
+      "postalCode": "83702",
+      "country": "US"
+    },
+    "placedAt": "2025-06-24T16:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 2298,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 13788
+  },
+  {
+    "id": "ord_1025",
+    "customerRef": "cus_012",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "5822 Elm Street",
+      "city": "Tacoma",
+      "region": "WA",
+      "postalCode": "98402",
+      "country": "US"
+    },
+    "placedAt": "2025-01-25T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-024",
+        "productName": "Weatherproof Tote Bin",
+        "unitPriceCents": 6148,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-020",
+        "productName": "Insulated Skid Plate",
+        "unitPriceCents": 2748,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 17140
+  },
+  {
+    "id": "ord_1026",
+    "customerRef": "cus_015",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "1349 Fir Street",
+      "city": "Akron",
+      "region": "OH",
+      "postalCode": "44308",
+      "country": "US"
+    },
+    "placedAt": "2025-02-26T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-019",
+        "productName": "Quick-Release Label Printer",
+        "unitPriceCents": 2298,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-026",
+        "productName": "Stackable Hand Truck",
+        "unitPriceCents": 1148,
+        "quantity": 2
+      }
+    ],
+    "totalCents": 13786
+  },
+  {
+    "id": "ord_1027",
+    "customerRef": "cus_005",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "4544 Ginkgo Street",
+      "city": "Fresno",
+      "region": "CA",
+      "postalCode": "93721",
+      "country": "US"
+    },
+    "placedAt": "2025-03-27T11:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2349,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-010",
+        "productName": "Weatherproof Hand Truck",
+        "unitPriceCents": 2198,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-029",
+        "productName": "Ventilated Corner Guard",
+        "unitPriceCents": 1898,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-028",
+        "productName": "Compact Cargo Net",
+        "unitPriceCents": 4048,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 34826
+  },
+  {
+    "id": "ord_1028",
+    "customerRef": "cus_020",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "8156 Hawthorn Street",
+      "city": "Mobile",
+      "region": "AL",
+      "postalCode": "36602",
+      "country": "US"
+    },
+    "placedAt": "2025-04-01T12:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-006",
+        "productName": "Insulated Load Bar",
+        "unitPriceCents": 648,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-020",
+        "productName": "Insulated Skid Plate",
+        "unitPriceCents": 2598,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-015",
+        "productName": "Ventilated Conveyor Roller",
+        "unitPriceCents": 8848,
+        "quantity": 5
+      }
+    ],
+    "totalCents": 56576
+  },
+  {
+    "id": "ord_1029",
+    "customerRef": "cus_004",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "1581 Ironwood Street",
+      "city": "Duluth",
+      "region": "MN",
+      "postalCode": "55802",
+      "country": "US"
+    },
+    "placedAt": "2025-05-02T13:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-023",
+        "productName": "Reinforced Strapping Kit",
+        "unitPriceCents": 1298,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-010",
+        "productName": "Weatherproof Hand Truck",
+        "unitPriceCents": 1898,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 10188
+  },
+  {
+    "id": "ord_1030",
+    "customerRef": "cus_008",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "9387 Juniper Street",
+      "city": "Provo",
+      "region": "UT",
+      "postalCode": "84601",
+      "country": "US"
+    },
+    "placedAt": "2025-06-03T14:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9998,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 9998
+  },
+  {
+    "id": "ord_1031",
+    "customerRef": "cus_020",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "4870 Kingsley Street",
+      "city": "Portland",
+      "region": "OR",
+      "postalCode": "97209",
+      "country": "US"
+    },
+    "placedAt": "2025-01-04T15:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2199,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 13194
+  },
+  {
+    "id": "ord_1032",
+    "customerRef": "cus_007",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "7075 Larch Street",
+      "city": "Austin",
+      "region": "TX",
+      "postalCode": "78701",
+      "country": "US"
+    },
+    "placedAt": "2025-02-05T16:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-012",
+        "productName": "Stackable Cargo Net",
+        "unitPriceCents": 7748,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-006",
+        "productName": "Insulated Load Bar",
+        "unitPriceCents": 648,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-027",
+        "productName": "Low-Profile Caster Wheel",
+        "unitPriceCents": 9698,
+        "quantity": 5
+      }
+    ],
+    "totalCents": 82074
+  },
+  {
+    "id": "ord_1033",
+    "customerRef": "cus_001",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "3044 Maple Street",
+      "city": "Rochester",
+      "region": "NY",
+      "postalCode": "14604",
+      "country": "US"
+    },
+    "placedAt": "2025-03-06T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-017",
+        "productName": "Heavy-Duty Shelf Bracket",
+        "unitPriceCents": 7398,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-019",
+        "productName": "Quick-Release Label Printer",
+        "unitPriceCents": 2098,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-026",
+        "productName": "Stackable Hand Truck",
+        "unitPriceCents": 1048,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 37980
+  },
+  {
+    "id": "ord_1034",
+    "customerRef": "cus_018",
+    "status": "cancelled",
+    "shippingAddress": {
+      "line1": "5529 Nutmeg Street",
+      "city": "Boise",
+      "region": "ID",
+      "postalCode": "83702",
+      "country": "US"
+    },
+    "placedAt": "2025-04-07T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-008",
+        "productName": "Modular Tote Bin",
+        "unitPriceCents": 2498,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-022",
+        "productName": "Modular Load Bar",
+        "unitPriceCents": 5598,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-026",
+        "productName": "Stackable Hand Truck",
+        "unitPriceCents": 1448,
+        "quantity": 3
+      }
+    ],
+    "totalCents": 36728
+  },
+  {
+    "id": "ord_1035",
+    "customerRef": "cus_005",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "1159 Olive Street",
+      "city": "Tacoma",
+      "region": "WA",
+      "postalCode": "98402",
+      "country": "US"
+    },
+    "placedAt": "2025-05-08T11:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-025",
+        "productName": "Precision Edge Protector",
+        "unitPriceCents": 6598,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-012",
+        "productName": "Stackable Cargo Net",
+        "unitPriceCents": 7948,
+        "quantity": 3
+      }
+    ],
+    "totalCents": 30442
+  },
+  {
+    "id": "ord_1036",
+    "customerRef": "cus_013",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "5051 Poplar Street",
+      "city": "Akron",
+      "region": "OH",
+      "postalCode": "44308",
+      "country": "US"
+    },
+    "placedAt": "2025-06-09T12:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-004",
+        "productName": "Collapsible Skid Plate",
+        "unitPriceCents": 9298,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2099,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 64184
+  },
+  {
+    "id": "ord_1037",
+    "customerRef": "cus_011",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "2992 Quince Street",
+      "city": "Fresno",
+      "region": "CA",
+      "postalCode": "93721",
+      "country": "US"
+    },
+    "placedAt": "2025-01-10T13:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-028",
+        "productName": "Compact Cargo Net",
+        "unitPriceCents": 4048,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7898,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-004",
+        "productName": "Collapsible Skid Plate",
+        "unitPriceCents": 8998,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 79530
+  },
+  {
+    "id": "ord_1038",
+    "customerRef": "cus_016",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "7068 Rowan Street",
+      "city": "Mobile",
+      "region": "AL",
+      "postalCode": "36602",
+      "country": "US"
+    },
+    "placedAt": "2025-02-11T14:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-012",
+        "productName": "Stackable Cargo Net",
+        "unitPriceCents": 7948,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 47688
+  },
+  {
+    "id": "ord_1039",
+    "customerRef": "cus_006",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "7037 Sycamore Street",
+      "city": "Duluth",
+      "region": "MN",
+      "postalCode": "55802",
+      "country": "US"
+    },
+    "placedAt": "2025-03-12T15:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-006",
+        "productName": "Insulated Load Bar",
+        "unitPriceCents": 798,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-020",
+        "productName": "Insulated Skid Plate",
+        "unitPriceCents": 2498,
+        "quantity": 2
+      }
+    ],
+    "totalCents": 6592
+  },
+  {
+    "id": "ord_1040",
+    "customerRef": "cus_004",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "7483 Tamarack Street",
+      "city": "Provo",
+      "region": "UT",
+      "postalCode": "84601",
+      "country": "US"
+    },
+    "placedAt": "2025-04-13T16:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-023",
+        "productName": "Reinforced Strapping Kit",
+        "unitPriceCents": 1298,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-021",
+        "productName": "Anti-Static Dock Bumper",
+        "unitPriceCents": 1748,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 4344
+  },
+  {
+    "id": "ord_1041",
+    "customerRef": "cus_013",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "4087 Alder Street",
+      "city": "Portland",
+      "region": "OR",
+      "postalCode": "97209",
+      "country": "US"
+    },
+    "placedAt": "2025-05-14T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-011",
+        "productName": "Precision Caster Wheel",
+        "unitPriceCents": 10198,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-007",
+        "productName": "Anti-Static Strapping Kit",
+        "unitPriceCents": 2348,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 65078
+  },
+  {
+    "id": "ord_1042",
+    "customerRef": "cus_013",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "6883 Birch Street",
+      "city": "Austin",
+      "region": "TX",
+      "postalCode": "78701",
+      "country": "US"
+    },
+    "placedAt": "2025-06-15T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 8048,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 1999,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 52234
+  },
+  {
+    "id": "ord_1043",
+    "customerRef": "cus_019",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "6703 Cedar Street",
+      "city": "Rochester",
+      "region": "NY",
+      "postalCode": "14604",
+      "country": "US"
+    },
+    "placedAt": "2025-01-16T11:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-007",
+        "productName": "Anti-Static Strapping Kit",
+        "unitPriceCents": 2348,
+        "quantity": 3
+      }
+    ],
+    "totalCents": 7044
+  },
+  {
+    "id": "ord_1044",
+    "customerRef": "cus_009",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "3033 Dogwood Street",
+      "city": "Boise",
+      "region": "ID",
+      "postalCode": "83702",
+      "country": "US"
+    },
+    "placedAt": "2025-02-17T12:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-013",
+        "productName": "Low-Profile Corner Guard",
+        "unitPriceCents": 2098,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-005",
+        "productName": "Quick-Release Dock Bumper",
+        "unitPriceCents": 2298,
+        "quantity": 1
+      }
+    ],
+    "totalCents": 12788
+  },
+  {
+    "id": "ord_1045",
+    "customerRef": "cus_020",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "7821 Elm Street",
+      "city": "Tacoma",
+      "region": "WA",
+      "postalCode": "98402",
+      "country": "US"
+    },
+    "placedAt": "2025-03-18T13:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-023",
+        "productName": "Reinforced Strapping Kit",
+        "unitPriceCents": 1448,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-013",
+        "productName": "Low-Profile Corner Guard",
+        "unitPriceCents": 1698,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-009",
+        "productName": "Reinforced Edge Protector",
+        "unitPriceCents": 4798,
+        "quantity": 6
+      },
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7748,
+        "quantity": 3
+      }
+    ],
+    "totalCents": 56626
+  },
+  {
+    "id": "ord_1046",
+    "customerRef": "cus_016",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "7888 Fir Street",
+      "city": "Akron",
+      "region": "OH",
+      "postalCode": "44308",
+      "country": "US"
+    },
+    "placedAt": "2025-04-19T14:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2349,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-024",
+        "productName": "Weatherproof Tote Bin",
+        "unitPriceCents": 6448,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-019",
+        "productName": "Quick-Release Label Printer",
+        "unitPriceCents": 2298,
+        "quantity": 3
+      },
+      {
+        "sku": "SKU-025",
+        "productName": "Precision Edge Protector",
+        "unitPriceCents": 6598,
+        "quantity": 4
+      }
+    ],
+    "totalCents": 50880
+  },
+  {
+    "id": "ord_1047",
+    "customerRef": "cus_001",
+    "status": "cancelled",
+    "shippingAddress": {
+      "line1": "2341 Ginkgo Street",
+      "city": "Fresno",
+      "region": "CA",
+      "postalCode": "93721",
+      "country": "US"
+    },
+    "placedAt": "2025-05-20T15:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-001",
+        "productName": "Compact Pallet Wrap",
+        "unitPriceCents": 2499,
+        "quantity": 1
+      },
+      {
+        "sku": "SKU-007",
+        "productName": "Anti-Static Strapping Kit",
+        "unitPriceCents": 2348,
+        "quantity": 3
+      }
+    ],
+    "totalCents": 9543
+  },
+  {
+    "id": "ord_1048",
+    "customerRef": "cus_004",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "2447 Hawthorn Street",
+      "city": "Mobile",
+      "region": "AL",
+      "postalCode": "36602",
+      "country": "US"
+    },
+    "placedAt": "2025-06-21T16:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-010",
+        "productName": "Weatherproof Hand Truck",
+        "unitPriceCents": 1898,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-025",
+        "productName": "Precision Edge Protector",
+        "unitPriceCents": 6798,
+        "quantity": 2
+      },
+      {
+        "sku": "SKU-018",
+        "productName": "Collapsible Ratchet Strap",
+        "unitPriceCents": 4548,
+        "quantity": 2
+      }
+    ],
+    "totalCents": 30284
+  },
+  {
+    "id": "ord_1049",
+    "customerRef": "cus_012",
+    "status": "packed",
+    "shippingAddress": {
+      "line1": "6142 Ironwood Street",
+      "city": "Duluth",
+      "region": "MN",
+      "postalCode": "55802",
+      "country": "US"
+    },
+    "placedAt": "2025-01-22T09:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-008",
+        "productName": "Modular Tote Bin",
+        "unitPriceCents": 2298,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 13788
+  },
+  {
+    "id": "ord_1050",
+    "customerRef": "cus_011",
+    "status": "placed",
+    "shippingAddress": {
+      "line1": "8371 Juniper Street",
+      "city": "Provo",
+      "region": "UT",
+      "postalCode": "84601",
+      "country": "US"
+    },
+    "placedAt": "2025-02-23T10:15:00Z",
+    "items": [
+      {
+        "sku": "SKU-030",
+        "productName": "Wide-Mouth Bin Divider",
+        "unitPriceCents": 9398,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-002",
+        "productName": "Wide-Mouth Ratchet Strap",
+        "unitPriceCents": 7748,
+        "quantity": 4
+      },
+      {
+        "sku": "SKU-016",
+        "productName": "Wide-Mouth Pallet Wrap",
+        "unitPriceCents": 998,
+        "quantity": 5
+      },
+      {
+        "sku": "SKU-024",
+        "productName": "Weatherproof Tote Bin",
+        "unitPriceCents": 6448,
+        "quantity": 6
+      }
+    ],
+    "totalCents": 121660
+  }
+]
