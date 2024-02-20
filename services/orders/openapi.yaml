@@ -1,0 +1,206 @@
+openapi: 3.0.3
+info:
+  title: Meridian Orders API
+  description: |
+    Order capture and lookup for Meridian Logistics.
+
+    All responses are camelCase. Money is always integer cents, never floats.
+  version: 1.4.0
+servers:
+  - url: http://localhost:8001
+    description: Local docker-compose
+
+security:
+  - bearerAuth: []
+
+paths:
+  /v1/orders:
+    get:
+      summary: List orders
+      operationId: listOrders
+      parameters:
+        - name: page
+          in: query
+          description: 1-based page number.
+          schema: { type: integer, minimum: 1, default: 1 }
+        - name: limit
+          in: query
+          description: Page size, capped at 100.
+          schema: { type: integer, minimum: 1, maximum: 100, default: 20 }
+      responses:
+        '200':
+          description: A page of orders.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/OrderPage' }
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+    post:
+      summary: Create an order
+      operationId: createOrder
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/NewOrder' }
+      responses:
+        '201':
+          description: The created order.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Order' }
+        '400':
+          description: Missing customerRef or items.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Error' }
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /v1/orders/{id}:
+    get:
+      summary: Fetch one order
+      operationId: getOrder
+      parameters:
+        - $ref: '#/components/parameters/OrderId'
+      responses:
+        '200':
+          description: The order.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Order' }
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /v1/orders/{id}/items:
+    get:
+      summary: Fetch the line items of an order
+      operationId: getOrderItems
+      description: |
+        Line items carry the product name and unit price *as they were at order
+        time*. They are not refreshed against the inventory service.
+      parameters:
+        - $ref: '#/components/parameters/OrderId'
+      responses:
+        '200':
+          description: The order's line items.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/OrderItemList' }
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  parameters:
+    OrderId:
+      name: id
+      in: path
+      required: true
+      schema: { type: string, example: ord_1001 }
+
+  responses:
+    Unauthorized:
+      description: Missing or invalid bearer token.
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+    NotFound:
+      description: No such order.
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/Error' }
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        error: { type: string, example: not_found }
+        message: { type: string }
+      required: [error, message]
+
+    Address:
+      type: object
+      properties:
+        line1: { type: string }
+        city: { type: string }
+        region: { type: string }
+        postalCode: { type: string }
+        country: { type: string }
+      required: [line1, city, region, postalCode, country]
+
+    Order:
+      type: object
+      properties:
+        id: { type: string, example: ord_1001 }
+        customerRef:
+          type: string
+          description: Opaque reference to a customer in the customers service.
+          example: cus_001
+        status:
+          type: string
+          enum: [placed, packed, cancelled]
+        shippingAddress: { $ref: '#/components/schemas/Address' }
+        placedAt: { type: string, format: date-time }
+        totalCents: { type: integer }
+      required: [id, customerRef, status, shippingAddress, placedAt, totalCents]
+
+    OrderPage:
+      type: object
+      properties:
+        data:
+          type: array
+          items: { $ref: '#/components/schemas/Order' }
+        page: { type: integer }
+        total:
+          type: integer
+          description: Total matching orders, not the size of this page.
+      required: [data, page, total]
+
+    OrderItem:
+      type: object
+      properties:
+        sku: { type: string, example: SKU-001 }
+        productName: { type: string }
+        unitPriceCents: { type: integer }
+        quantity: { type: integer }
+        lineTotalCents: { type: integer }
+      required: [sku, productName, unitPriceCents, quantity, lineTotalCents]
+
+    OrderItemList:
+      type: object
+      properties:
+        orderId: { type: string }
+        data:
+          type: array
+          items: { $ref: '#/components/schemas/OrderItem' }
+      required: [orderId, data]
+
+    NewOrderItem:
+      type: object
+      properties:
+        sku: { type: string }
+        productName: { type: string }
+        unitPriceCents: { type: integer }
+        quantity: { type: integer }
+      required: [sku, productName, unitPriceCents, quantity]
+
+    NewOrder:
+      type: object
+      properties:
+        customerRef: { type: string }
+        shippingAddress: { $ref: '#/components/schemas/Address' }
+        items:
+          type: array
+          minItems: 1
+          items: { $ref: '#/components/schemas/NewOrderItem' }
+      required: [customerRef, items]
