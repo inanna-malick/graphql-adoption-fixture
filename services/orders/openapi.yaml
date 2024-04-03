@@ -27,6 +27,10 @@ paths:
           in: query
           description: Page size, capped at 100.
           schema: { type: integer, minimum: 1, maximum: 100, default: 20 }
+        - name: customerRef
+          in: query
+          description: Restrict results to a single customer reference.
+          schema: { type: string, example: cus_001 }
       responses:
         '200':
           description: A page of orders.

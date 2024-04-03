@@ -53,14 +53,16 @@ function notFound(res, id) {
 app.get('/v1/orders', async (req, res) => {
   const page = Math.max(1, Number(req.query.page) || 1);
   const limit = Math.min(100, Math.max(1, Number(req.query.limit) || 20));
+  const where = req.query.customerRef ? { customerRef: String(req.query.customerRef) } : {};
 
   const [orders, total] = await Promise.all([
     prisma.order.findMany({
+      where,
       orderBy: { id: 'asc' },
       skip: (page - 1) * limit,
       take: limit,
     }),
-    prisma.order.count(),
+    prisma.order.count({ where }),
   ]);
 
   res.json({ data: orders.map(toV1), page, total });

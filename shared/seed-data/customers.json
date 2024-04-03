@@ -1,0 +1,142 @@
+[
+  {
+    "id": "cus_001",
+    "name": "Ada Okonkwo",
+    "email": "ada.okonkwo@example.com",
+    "tier": "silver",
+    "created_at": "2023-01-04T09:00:00Z"
+  },
+  {
+    "id": "cus_002",
+    "name": "Bruno Vasquez",
+    "email": "bruno.vasquez@example.com",
+    "tier": "gold",
+    "created_at": "2023-02-07T09:00:00Z"
+  },
+  {
+    "id": "cus_003",
+    "name": "Camila Lindqvist",
+    "email": "camila.lindqvist@example.com",
+    "tier": "platinum",
+    "created_at": "2023-03-10T09:00:00Z"
+  },
+  {
+    "id": "cus_004",
+    "name": "Dmitri Petrov",
+    "email": "dmitri.petrov@example.com",
+    "tier": "bronze",
+    "created_at": "2023-04-13T09:00:00Z"
+  },
+  {
+    "id": "cus_005",
+    "name": "Elena Marchetti",
+    "email": "elena.marchetti@example.com",
+    "tier": "silver",
+    "created_at": "2023-05-16T09:00:00Z"
+  },
+  {
+    "id": "cus_006",
+    "name": "Farouk Haddad",
+    "email": "farouk.haddad@example.com",
+    "tier": "gold",
+    "created_at": "2023-06-19T09:00:00Z"
+  },
+  {
+    "id": "cus_007",
+    "name": "Greta Brandt",
+    "email": "greta.brandt@example.com",
+    "tier": "platinum",
+    "created_at": "2023-07-22T09:00:00Z"
+  },
+  {
+    "id": "cus_008",
+    "name": "Hiro Tanaka",
+    "email": "hiro.tanaka@example.com",
+    "tier": "bronze",
+    "created_at": "2023-08-25T09:00:00Z"
+  },
+  {
+    "id": "cus_009",
+    "name": "Imani Nwosu",
+    "email": "imani.nwosu@example.com",
+    "tier": "silver",
+    "created_at": "2023-09-01T09:00:00Z"
+  },
+  {
+    "id": "cus_010",
+    "name": "Jonas Kilpatrick",
+    "email": "jonas.kilpatrick@example.com",
+    "tier": "gold",
+    "created_at": "2023-10-04T09:00:00Z"
+  },
+  {
+    "id": "cus_011",
+    "name": "Kirsten Solberg",
+    "email": "kirsten.solberg@example.com",
+    "tier": "platinum",
+    "created_at": "2023-11-07T09:00:00Z"
+  },
+  {
+    "id": "cus_012",
+    "name": "Lucia Reyes",
+    "email": "lucia.reyes@example.com",
+    "tier": "bronze",
+    "created_at": "2023-12-10T09:00:00Z"
+  },
+  {
+    "id": "cus_013",
+    "name": "Mateo Alvarez",
+    "email": "mateo.alvarez@example.com",
+    "tier": "silver",
+    "created_at": "2023-01-13T09:00:00Z"
+  },
+  {
+    "id": "cus_014",
+    "name": "Nadia Baranova",
+    "email": "nadia.baranova@example.com",
+    "tier": "gold",
+    "created_at": "2023-02-16T09:00:00Z"
+  },
+  {
+    "id": "cus_015",
+    "name": "Oscar Nilsen",
+    "email": "oscar.nilsen@example.com",
+    "tier": "platinum",
+    "created_at": "2023-03-19T09:00:00Z"
+  },
+  {
+    "id": "cus_016",
+    "name": "Priya Raghavan",
+    "email": "priya.raghavan@example.com",
+    "tier": "bronze",
+    "created_at": "2023-04-22T09:00:00Z"
+  },
+  {
+    "id": "cus_017",
+    "name": "Quentin Dubois",
+    "email": "quentin.dubois@example.com",
+    "tier": "silver",
+    "created_at": "2023-05-25T09:00:00Z"
+  },
+  {
+    "id": "cus_018",
+    "name": "Rosa Ferreira",
+    "email": "rosa.ferreira@example.com",
+    "tier": "gold",
+    "created_at": "2023-06-01T09:00:00Z"
+  },
+  {
+    "id": "cus_019",
+    "name": "Samir Khoury",
+    "email": "samir.khoury@example.com",
+    "tier": "platinum",
+    "created_at": "2023-07-04T09:00:00Z"
+  },
+  {
+    "id": "cus_020",
+    "name": "Tova Aaltonen",
+    "email": "tova.aaltonen@example.com",
+    "tier": "bronze",
+    "created_at": "2023-08-07T09:00:00Z"
+  }
+]
