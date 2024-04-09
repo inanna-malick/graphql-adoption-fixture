@@ -1,0 +1,55 @@
+# Meridian Logistics — local stack.
+#
+# Host port map (this file is the authority):
+#
+#   orders          -> http://localhost:8001
+#   customers       -> http://localhost:8003
+#
+# Databases live inside the containers, so `docker compose down` throws the data
+# away and the next `up` re-seeds from shared/seed-data. That is intentional:
+# every run starts from the same fixture.
+
+services:
+  orders:
+    build: ./services/orders
+    # Express listens on 8001 in the container.
+    ports:
+      - "8001:8001"
+    environment:
+      PORT: 8001
+      DATABASE_URL: "file:/app/data/orders.db"
+      SEED_DATA_DIR: /seed
+      MERIDIAN_JWT_SECRET: ${MERIDIAN_JWT_SECRET:-meridian-dev-secret-not-for-production}
+    volumes:
+      - ./shared/seed-data:/seed:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8001/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  customers:
+    build: ./services/customers
+    # Go net/http listens on 8003 in the container.
+    ports:
+      - "8003:8003"
+    environment:
+      PORT: 8003
+      CUSTOMERS_DB: /app/data/customers.db
+      SCHEMA_PATH: /app/schema.sql
+      SEED_DATA_DIR: /seed
+      ORDERS_URL: http://orders:8001
+      MERIDIAN_JWT_SECRET: ${MERIDIAN_JWT_SECRET:-meridian-dev-secret-not-for-production}
+    volumes:
+      - ./shared/seed-data:/seed:ro
+    depends_on:
+      orders:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://127.0.0.1:8003/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
