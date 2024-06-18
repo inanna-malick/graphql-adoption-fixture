@@ -3,6 +3,7 @@
 # Host port map (this file is the authority):
 #
 #   orders          -> http://localhost:8001
+#   inventory       -> http://localhost:8012
 #   customers       -> http://localhost:8003
 #
 # Databases live inside the containers, so `docker compose down` throws the data
@@ -28,6 +29,25 @@ services:
       timeout: 5s
       retries: 10
       start_period: 20s
+
+  inventory:
+    build: ./services/inventory
+    # uvicorn listens on 8000 in the container; 8002 on the host was already
+    # taken by the old warehouse dashboard, so we moved it to 8012.
+    ports:
+      - "8012:8000"
+    environment:
+      DATABASE_URL: "sqlite:////app/data/inventory.db"
+      SEED_DATA_DIR: /seed
+      MERIDIAN_JWT_SECRET: ${MERIDIAN_JWT_SECRET:-meridian-dev-secret-not-for-production}
+    volumes:
+      - ./shared/seed-data:/seed:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health').status == 200 else 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
 
   customers:
     build: ./services/customers

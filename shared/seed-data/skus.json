@@ -1,0 +1,242 @@
+[
+  {
+    "sku": "SKU-001",
+    "name": "Compact Pallet Wrap",
+    "quantity_available": 142,
+    "unit_price_cents": 2199,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-002",
+    "name": "Wide-Mouth Ratchet Strap",
+    "quantity_available": 73,
+    "unit_price_cents": 7748,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-003",
+    "name": "Heavy-Duty Label Printer",
+    "quantity_available": 124,
+    "unit_price_cents": 3048,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-004",
+    "name": "Collapsible Skid Plate",
+    "quantity_available": 136,
+    "unit_price_cents": 8998,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-005",
+    "name": "Quick-Release Dock Bumper",
+    "quantity_available": 35,
+    "unit_price_cents": 2298,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-006",
+    "name": "Insulated Load Bar",
+    "quantity_available": 438,
+    "unit_price_cents": 648,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-007",
+    "name": "Anti-Static Strapping Kit",
+    "quantity_available": 391,
+    "unit_price_cents": 2198,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-008",
+    "name": "Modular Tote Bin",
+    "quantity_available": 339,
+    "unit_price_cents": 2498,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-009",
+    "name": "Reinforced Edge Protector",
+    "quantity_available": 23,
+    "unit_price_cents": 4648,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-010",
+    "name": "Weatherproof Hand Truck",
+    "quantity_available": 11,
+    "unit_price_cents": 1898,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-011",
+    "name": "Precision Caster Wheel",
+    "quantity_available": 471,
+    "unit_price_cents": 9898,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-012",
+    "name": "Stackable Cargo Net",
+    "quantity_available": 126,
+    "unit_price_cents": 7948,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-013",
+    "name": "Low-Profile Corner Guard",
+    "quantity_available": 277,
+    "unit_price_cents": 1798,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-014",
+    "name": "Compact Bin Divider",
+    "quantity_available": 474,
+    "unit_price_cents": 8048,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-015",
+    "name": "Ventilated Conveyor Roller",
+    "quantity_available": 325,
+    "unit_price_cents": 8698,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-016",
+    "name": "Wide-Mouth Pallet Wrap",
+    "quantity_available": 312,
+    "unit_price_cents": 1198,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-017",
+    "name": "Heavy-Duty Shelf Bracket",
+    "quantity_available": 35,
+    "unit_price_cents": 7398,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-018",
+    "name": "Collapsible Ratchet Strap",
+    "quantity_available": 42,
+    "unit_price_cents": 4548,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-019",
+    "name": "Quick-Release Label Printer",
+    "quantity_available": 153,
+    "unit_price_cents": 2298,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-020",
+    "name": "Insulated Skid Plate",
+    "quantity_available": 117,
+    "unit_price_cents": 2598,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-021",
+    "name": "Anti-Static Dock Bumper",
+    "quantity_available": 145,
+    "unit_price_cents": 1848,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-022",
+    "name": "Modular Load Bar",
+    "quantity_available": 97,
+    "unit_price_cents": 5798,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-023",
+    "name": "Reinforced Strapping Kit",
+    "quantity_available": 78,
+    "unit_price_cents": 1298,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-024",
+    "name": "Weatherproof Tote Bin",
+    "quantity_available": 171,
+    "unit_price_cents": 6148,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-025",
+    "name": "Precision Edge Protector",
+    "quantity_available": 263,
+    "unit_price_cents": 6798,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-026",
+    "name": "Stackable Hand Truck",
+    "quantity_available": 379,
+    "unit_price_cents": 1148,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-027",
+    "name": "Low-Profile Caster Wheel",
+    "quantity_available": 164,
+    "unit_price_cents": 9698,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-028",
+    "name": "Compact Cargo Net",
+    "quantity_available": 122,
+    "unit_price_cents": 4148,
+    "warehouse": "WH-WEST",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-029",
+    "name": "Ventilated Corner Guard",
+    "quantity_available": 451,
+    "unit_price_cents": 1998,
+    "warehouse": "WH-CENTRAL",
+    "reserved": 0
+  },
+  {
+    "sku": "SKU-030",
+    "name": "Wide-Mouth Bin Divider",
+    "quantity_available": 149,
+    "unit_price_cents": 9398,
+    "warehouse": "WH-EAST",
+    "reserved": 0
+  }
+]
