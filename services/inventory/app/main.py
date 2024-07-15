@@ -22,7 +22,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="Meridian Inventory",
     description="Stock levels and reservations for the Meridian warehouses.",
-    version="0.7.0",
+    version="0.9.3",
     lifespan=lifespan,
 )
 
@@ -60,13 +60,13 @@ def reserve_item(
     if item is None:
         raise HTTPException(status_code=404, detail=f"no item with sku {sku}")
 
-    if body.quantity > item.quantity_available:
+    if body.quantity > item.qty_on_hand:
         raise HTTPException(
             status_code=409,
-            detail=f"only {item.quantity_available} of {sku} on hand",
+            detail=f"only {item.qty_on_hand} of {sku} on hand",
         )
 
-    item.quantity_available -= body.quantity
+    item.qty_on_hand -= body.quantity
     item.reserved += body.quantity
     session.add(item)
     session.commit()
