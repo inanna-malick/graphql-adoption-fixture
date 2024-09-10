@@ -29,3 +29,19 @@ Mint a dev token with:
 The script honours `MERIDIAN_JWT_SECRET` and falls back to the same dev default
 the compose stack uses, so a token minted with no env set works against a
 freshly-composed stack.
+
+## shipping-mock
+
+`shipping-mock` is a stand-in for ShipStream, a third-party SaaS. It does **not**
+use our JWTs. It wants a vendor API key in a header:
+
+```
+X-ShipStream-Key: <key>
+```
+
+See `.env.example` at the repo root for the sandbox key, and
+`services/shipping-mock/docs/shipstream-api.md` for their docs.
+
+## legacy-billing
+
+No auth. It is gRPC on an internal port and predates the token work.

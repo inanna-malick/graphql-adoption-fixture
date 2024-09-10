@@ -5,6 +5,7 @@
 #   orders          -> http://localhost:8001
 #   inventory       -> http://localhost:8012
 #   customers       -> http://localhost:8003
+#   shipping-mock   -> http://localhost:8004
 #
 # Databases live inside the containers, so `docker compose down` throws the data
 # away and the next `up` re-seeds from shared/seed-data. That is intentional:
@@ -68,6 +69,24 @@ services:
         condition: service_healthy
     healthcheck:
       test: ["CMD", "wget", "-q", "-O", "-", "http://127.0.0.1:8003/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  shipping-mock:
+    build: ./services/shipping-mock
+    # Third-party sandbox stand-in; 8004 on both sides.
+    ports:
+      - "8004:8004"
+    environment:
+      PORT: 8004
+      SEED_DATA_DIR: /seed
+      SHIPSTREAM_API_KEY: ${SHIPSTREAM_API_KEY:-ss_sandbox_7f3a9c21b6e04d5f}
+    volumes:
+      - ./shared/seed-data:/seed:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8004/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
       interval: 10s
       timeout: 5s
       retries: 10
