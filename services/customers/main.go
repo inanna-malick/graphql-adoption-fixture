@@ -18,6 +18,7 @@ type Customer struct {
 	Name                string `json:"name"`
 	Email               string `json:"email"`
 	Tier                string `json:"tier"`
+	ShipstreamAccountID string `json:"shipstream_account_id"`
 	CreatedAt           string `json:"created_at"`
 }
 
@@ -102,9 +103,9 @@ func seed(db *sql.DB, seedDir string) error {
 	}
 	for _, c := range customers {
 		_, err := tx.Exec(
-			`INSERT INTO customers (id, name, email, tier, created_at)
-			 VALUES (?, ?, ?, ?, ?)`,
-			c.ID, c.Name, c.Email, c.Tier, c.CreatedAt,
+			`INSERT INTO customers (id, name, email, tier, shipstream_account_id, created_at)
+			 VALUES (?, ?, ?, ?, ?, ?)`,
+			c.ID, c.Name, c.Email, c.Tier, c.ShipstreamAccountID, c.CreatedAt,
 		)
 		if err != nil {
 			tx.Rollback()

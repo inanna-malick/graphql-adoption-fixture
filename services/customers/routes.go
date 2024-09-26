@@ -30,7 +30,7 @@ func (s *server) handleHealth(w http.ResponseWriter, r *http.Request) {
 
 func (s *server) handleListCustomers(w http.ResponseWriter, r *http.Request) {
 	rows, err := s.db.Query(
-		`SELECT id, name, email, tier, created_at
+		`SELECT id, name, email, tier, shipstream_account_id, created_at
 		 FROM customers ORDER BY id`)
 	if err != nil {
 		writeError(w, http.StatusInternalServerError, "internal_error", err.Error())
@@ -41,7 +41,7 @@ func (s *server) handleListCustomers(w http.ResponseWriter, r *http.Request) {
 	customers := []Customer{}
 	for rows.Next() {
 		var c Customer
-		if err := rows.Scan(&c.ID, &c.Name, &c.Email, &c.Tier, &c.CreatedAt); err != nil {
+		if err := rows.Scan(&c.ID, &c.Name, &c.Email, &c.Tier, &c.ShipstreamAccountID, &c.CreatedAt); err != nil {
 			writeError(w, http.StatusInternalServerError, "internal_error", err.Error())
 			return
 		}
@@ -57,9 +57,9 @@ func (s *server) handleListCustomers(w http.ResponseWriter, r *http.Request) {
 func (s *server) lookup(id string) (*Customer, error) {
 	var c Customer
 	err := s.db.QueryRow(
-		`SELECT id, name, email, tier, created_at
+		`SELECT id, name, email, tier, shipstream_account_id, created_at
 		 FROM customers WHERE id = ?`, id,
-	).Scan(&c.ID, &c.Name, &c.Email, &c.Tier, &c.CreatedAt)
+	).Scan(&c.ID, &c.Name, &c.Email, &c.Tier, &c.ShipstreamAccountID, &c.CreatedAt)
 	if err != nil {
 		return nil, err
 	}
