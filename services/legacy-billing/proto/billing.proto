@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package meridian.billing.v1;
+
+// Invoicing for Meridian Logistics. Predates the HTTP services; there is no
+// REST interface and no plan to add one.
+service BillingService {
+  rpc GetInvoice (InvoiceRequest) returns (Invoice);
+  rpc ListInvoicesForCustomer (CustomerInvoicesRequest) returns (InvoiceList);
+}
+
+message InvoiceRequest {
+  string invoice_id = 1;
+}
+
+message CustomerInvoicesRequest {
+  string customer_id = 1;
+}
+
+message Invoice {
+  string invoice_id = 1;
+  // Matches the customer id used by the customers service.
+  string customer_id = 2;
+  string order_id = 3;
+  int64 amount_cents = 4;
+  string currency = 5;
+  // One of: paid, open.
+  string status = 6;
+  string issued_at = 7;
+}
+
+message InvoiceList {
+  repeated Invoice invoices = 1;
+}

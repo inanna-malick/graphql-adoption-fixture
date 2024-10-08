@@ -1,0 +1,416 @@
+[
+  {
+    "invoice_id": "inv_9001",
+    "customer_id": "cus_001",
+    "order_id": "ord_1001",
+    "amount_cents": 14045,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-01"
+  },
+  {
+    "invoice_id": "inv_9002",
+    "customer_id": "cus_002",
+    "order_id": "ord_1002",
+    "amount_cents": 85372,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-02"
+  },
+  {
+    "invoice_id": "inv_9003",
+    "customer_id": "cus_003",
+    "order_id": "ord_1003",
+    "amount_cents": 27740,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-03-03"
+  },
+  {
+    "invoice_id": "inv_9004",
+    "customer_id": "cus_004",
+    "order_id": "ord_1004",
+    "amount_cents": 57572,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-04-04"
+  },
+  {
+    "invoice_id": "inv_9005",
+    "customer_id": "cus_005",
+    "order_id": "ord_1005",
+    "amount_cents": 117966,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-05-05"
+  },
+  {
+    "invoice_id": "inv_9006",
+    "customer_id": "cus_006",
+    "order_id": "ord_1006",
+    "amount_cents": 24789,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-06-06"
+  },
+  {
+    "invoice_id": "inv_9007",
+    "customer_id": "cus_007",
+    "order_id": "ord_1007",
+    "amount_cents": 16788,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-07"
+  },
+  {
+    "invoice_id": "inv_9008",
+    "customer_id": "cus_009",
+    "order_id": "ord_1009",
+    "amount_cents": 38740,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-03-09"
+  },
+  {
+    "invoice_id": "inv_9009",
+    "customer_id": "cus_010",
+    "order_id": "ord_1010",
+    "amount_cents": 84764,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-04-10"
+  },
+  {
+    "invoice_id": "inv_9010",
+    "customer_id": "cus_011",
+    "order_id": "ord_1011",
+    "amount_cents": 12730,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-05-11"
+  },
+  {
+    "invoice_id": "inv_9011",
+    "customer_id": "cus_012",
+    "order_id": "ord_1012",
+    "amount_cents": 40332,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-06-12"
+  },
+  {
+    "invoice_id": "inv_9012",
+    "customer_id": "cus_013",
+    "order_id": "ord_1013",
+    "amount_cents": 46968,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-01-13"
+  },
+  {
+    "invoice_id": "inv_9013",
+    "customer_id": "cus_014",
+    "order_id": "ord_1014",
+    "amount_cents": 2240,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-14"
+  },
+  {
+    "invoice_id": "inv_9014",
+    "customer_id": "cus_015",
+    "order_id": "ord_1015",
+    "amount_cents": 58788,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-03-15"
+  },
+  {
+    "invoice_id": "inv_9015",
+    "customer_id": "cus_016",
+    "order_id": "ord_1016",
+    "amount_cents": 60434,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-04-16"
+  },
+  {
+    "invoice_id": "inv_9016",
+    "customer_id": "cus_017",
+    "order_id": "ord_1017",
+    "amount_cents": 59232,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-05-17"
+  },
+  {
+    "invoice_id": "inv_9017",
+    "customer_id": "cus_018",
+    "order_id": "ord_1018",
+    "amount_cents": 59684,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-06-18"
+  },
+  {
+    "invoice_id": "inv_9018",
+    "customer_id": "cus_019",
+    "order_id": "ord_1019",
+    "amount_cents": 14138,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-19"
+  },
+  {
+    "invoice_id": "inv_9019",
+    "customer_id": "cus_020",
+    "order_id": "ord_1020",
+    "amount_cents": 108624,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-20"
+  },
+  {
+    "invoice_id": "inv_9020",
+    "customer_id": "cus_014",
+    "order_id": "ord_1022",
+    "amount_cents": 60682,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-04-22"
+  },
+  {
+    "invoice_id": "inv_9021",
+    "customer_id": "cus_014",
+    "order_id": "ord_1023",
+    "amount_cents": 90328,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-05-23"
+  },
+  {
+    "invoice_id": "inv_9022",
+    "customer_id": "cus_003",
+    "order_id": "ord_1024",
+    "amount_cents": 13788,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-06-24"
+  },
+  {
+    "invoice_id": "inv_9023",
+    "customer_id": "cus_012",
+    "order_id": "ord_1025",
+    "amount_cents": 17140,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-25"
+  },
+  {
+    "invoice_id": "inv_9024",
+    "customer_id": "cus_015",
+    "order_id": "ord_1026",
+    "amount_cents": 13786,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-02-26"
+  },
+  {
+    "invoice_id": "inv_9025",
+    "customer_id": "cus_005",
+    "order_id": "ord_1027",
+    "amount_cents": 34826,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-03-27"
+  },
+  {
+    "invoice_id": "inv_9026",
+    "customer_id": "cus_020",
+    "order_id": "ord_1028",
+    "amount_cents": 56576,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-04-01"
+  },
+  {
+    "invoice_id": "inv_9027",
+    "customer_id": "cus_004",
+    "order_id": "ord_1029",
+    "amount_cents": 10188,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-05-02"
+  },
+  {
+    "invoice_id": "inv_9028",
+    "customer_id": "cus_008",
+    "order_id": "ord_1030",
+    "amount_cents": 9998,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-06-03"
+  },
+  {
+    "invoice_id": "inv_9029",
+    "customer_id": "cus_020",
+    "order_id": "ord_1031",
+    "amount_cents": 13194,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-04"
+  },
+  {
+    "invoice_id": "inv_9030",
+    "customer_id": "cus_007",
+    "order_id": "ord_1032",
+    "amount_cents": 82074,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-05"
+  },
+  {
+    "invoice_id": "inv_9031",
+    "customer_id": "cus_001",
+    "order_id": "ord_1033",
+    "amount_cents": 37980,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-03-06"
+  },
+  {
+    "invoice_id": "inv_9032",
+    "customer_id": "cus_005",
+    "order_id": "ord_1035",
+    "amount_cents": 30442,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-05-08"
+  },
+  {
+    "invoice_id": "inv_9033",
+    "customer_id": "cus_013",
+    "order_id": "ord_1036",
+    "amount_cents": 64184,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-06-09"
+  },
+  {
+    "invoice_id": "inv_9034",
+    "customer_id": "cus_011",
+    "order_id": "ord_1037",
+    "amount_cents": 79530,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-10"
+  },
+  {
+    "invoice_id": "inv_9035",
+    "customer_id": "cus_016",
+    "order_id": "ord_1038",
+    "amount_cents": 47688,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-11"
+  },
+  {
+    "invoice_id": "inv_9036",
+    "customer_id": "cus_006",
+    "order_id": "ord_1039",
+    "amount_cents": 6592,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-03-12"
+  },
+  {
+    "invoice_id": "inv_9037",
+    "customer_id": "cus_004",
+    "order_id": "ord_1040",
+    "amount_cents": 4344,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-04-13"
+  },
+  {
+    "invoice_id": "inv_9038",
+    "customer_id": "cus_013",
+    "order_id": "ord_1041",
+    "amount_cents": 65078,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-05-14"
+  },
+  {
+    "invoice_id": "inv_9039",
+    "customer_id": "cus_013",
+    "order_id": "ord_1042",
+    "amount_cents": 52234,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-06-15"
+  },
+  {
+    "invoice_id": "inv_9040",
+    "customer_id": "cus_019",
+    "order_id": "ord_1043",
+    "amount_cents": 7044,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-01-16"
+  },
+  {
+    "invoice_id": "inv_9041",
+    "customer_id": "cus_009",
+    "order_id": "ord_1044",
+    "amount_cents": 12788,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-17"
+  },
+  {
+    "invoice_id": "inv_9042",
+    "customer_id": "cus_020",
+    "order_id": "ord_1045",
+    "amount_cents": 56626,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-03-18"
+  },
+  {
+    "invoice_id": "inv_9043",
+    "customer_id": "cus_016",
+    "order_id": "ord_1046",
+    "amount_cents": 50880,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-04-19"
+  },
+  {
+    "invoice_id": "inv_9044",
+    "customer_id": "cus_004",
+    "order_id": "ord_1048",
+    "amount_cents": 30284,
+    "currency": "USD",
+    "status": "open",
+    "issued_at": "2025-06-21"
+  },
+  {
+    "invoice_id": "inv_9045",
+    "customer_id": "cus_012",
+    "order_id": "ord_1049",
+    "amount_cents": 13788,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-01-22"
+  },
+  {
+    "invoice_id": "inv_9046",
+    "customer_id": "cus_011",
+    "order_id": "ord_1050",
+    "amount_cents": 121660,
+    "currency": "USD",
+    "status": "paid",
+    "issued_at": "2025-02-23"
+  }
+]

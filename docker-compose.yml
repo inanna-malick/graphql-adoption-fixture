@@ -6,6 +6,7 @@
 #   inventory       -> http://localhost:8012
 #   customers       -> http://localhost:8003
 #   shipping-mock   -> http://localhost:8004
+#   legacy-billing  -> grpc://localhost:50051
 #
 # Databases live inside the containers, so `docker compose down` throws the data
 # away and the next `up` re-seeds from shared/seed-data. That is intentional:
@@ -92,3 +93,19 @@ services:
       retries: 10
       start_period: 10s
 
+  legacy-billing:
+    build: ./services/legacy-billing
+    # gRPC, no HTTP interface. 50051 is the grpc-js default.
+    ports:
+      - "50051:50051"
+    environment:
+      PORT: 50051
+      SEED_DATA_DIR: /seed
+    volumes:
+      - ./shared/seed-data:/seed:ro
+    healthcheck:
+      test: ["CMD", "node", "src/healthcheck.js"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
