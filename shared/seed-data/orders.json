@@ -11,6 +11,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-01T09:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-001",
@@ -39,6 +40,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-02T10:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-027",
@@ -73,6 +75,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-03T11:15:00Z",
+    "shippingStatus": "in_transit",
     "items": [
       {
         "sku": "SKU-014",
@@ -101,6 +104,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-04T12:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-024",
@@ -141,6 +145,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-05T13:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-027",
@@ -181,6 +186,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-06T14:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-001",
@@ -209,6 +215,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-07T15:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-008",
@@ -231,6 +238,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-08T16:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-027",
@@ -271,6 +279,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-09T09:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-002",
@@ -293,6 +302,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-10T10:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-023",
@@ -333,6 +343,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-11T11:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-006",
@@ -361,6 +372,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-12T12:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-002",
@@ -389,6 +401,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-13T13:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-026",
@@ -423,6 +436,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-14T14:15:00Z",
+    "shippingStatus": "in_transit",
     "items": [
       {
         "sku": "SKU-006",
@@ -445,6 +459,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-15T15:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-011",
@@ -473,6 +488,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-16T16:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-002",
@@ -507,6 +523,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-17T09:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-025",
@@ -541,6 +558,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-18T10:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-005",
@@ -575,6 +593,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-19T11:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-028",
@@ -603,6 +622,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-20T12:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-018",
@@ -637,6 +657,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-21T13:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-016",
@@ -659,6 +680,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-22T14:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-002",
@@ -693,6 +715,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-23T15:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-017",
@@ -727,6 +750,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-24T16:15:00Z",
+    "shippingStatus": "in_transit",
     "items": [
       {
         "sku": "SKU-029",
@@ -749,6 +773,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-25T09:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-024",
@@ -777,6 +802,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-26T10:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-019",
@@ -805,6 +831,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-27T11:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-001",
@@ -845,6 +872,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-01T12:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-006",
@@ -879,6 +907,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-02T13:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-023",
@@ -907,6 +936,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-03T14:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-027",
@@ -929,6 +959,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-04T15:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-001",
@@ -951,6 +982,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-05T16:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-012",
@@ -985,6 +1017,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-06T09:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-017",
@@ -1019,6 +1052,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-07T10:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-008",
@@ -1053,6 +1087,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-08T11:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-025",
@@ -1081,6 +1116,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-09T12:15:00Z",
+    "shippingStatus": "in_transit",
     "items": [
       {
         "sku": "SKU-004",
@@ -1109,6 +1145,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-10T13:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-028",
@@ -1143,6 +1180,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-11T14:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-012",
@@ -1165,6 +1203,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-12T15:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-006",
@@ -1193,6 +1232,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-13T16:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-023",
@@ -1221,6 +1261,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-14T09:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-011",
@@ -1249,6 +1290,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-15T10:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-002",
@@ -1277,6 +1319,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-16T11:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-007",
@@ -1299,6 +1342,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-17T12:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-013",
@@ -1327,6 +1371,7 @@
       "country": "US"
     },
     "placedAt": "2025-03-18T13:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-023",
@@ -1367,6 +1412,7 @@
       "country": "US"
     },
     "placedAt": "2025-04-19T14:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-001",
@@ -1407,6 +1453,7 @@
       "country": "US"
     },
     "placedAt": "2025-05-20T15:15:00Z",
+    "shippingStatus": null,
     "items": [
       {
         "sku": "SKU-001",
@@ -1435,6 +1482,7 @@
       "country": "US"
     },
     "placedAt": "2025-06-21T16:15:00Z",
+    "shippingStatus": "in_transit",
     "items": [
       {
         "sku": "SKU-010",
@@ -1469,6 +1517,7 @@
       "country": "US"
     },
     "placedAt": "2025-01-22T09:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-008",
@@ -1491,6 +1540,7 @@
       "country": "US"
     },
     "placedAt": "2025-02-23T10:15:00Z",
+    "shippingStatus": "label_created",
     "items": [
       {
         "sku": "SKU-030",

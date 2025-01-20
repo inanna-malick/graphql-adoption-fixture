@@ -17,6 +17,7 @@ async function seed(prisma) {
         id: order.id,
         customerRef: order.customerRef,
         status: order.status,
+        shippingStatus: order.shippingStatus,
         shippingLine1: order.shippingAddress.line1,
         shippingCity: order.shippingAddress.city,
         shippingRegion: order.shippingAddress.region,

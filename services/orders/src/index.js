@@ -46,6 +46,20 @@ function toItem(item) {
   };
 }
 
+function toV2(order) {
+  return {
+    id: order.id,
+    customerRef: order.customerRef,
+    status: order.status,
+    shippingStatus: order.shippingStatus,
+    shippingAddress: shippingAddress(order),
+    placedAt: order.placedAt,
+    totalCents: order.totalCents,
+    itemCount: order.items.length,
+    items: order.items.map(toItem),
+  };
+}
+
 function notFound(res, id) {
   return res.status(404).json({ error: 'not_found', message: `no order with id ${id}` });
 }
@@ -123,6 +137,26 @@ app.post('/v1/orders', async (req, res) => {
   });
 
   res.status(201).json(toV1(order));
+});
+
+app.get('/v2/orders', async (req, res) => {
+  const where = req.query.status ? { status: String(req.query.status) } : {};
+  const orders = await prisma.order.findMany({
+    where,
+    orderBy: { id: 'asc' },
+    include: { items: { orderBy: { id: 'asc' } } },
+  });
+
+  res.json({ data: orders.map(toV2), total: orders.length });
+});
+
+app.get('/v2/orders/:id', async (req, res) => {
+  const order = await prisma.order.findUnique({
+    where: { id: req.params.id },
+    include: { items: { orderBy: { id: 'asc' } } },
+  });
+  if (!order) return notFound(res, req.params.id);
+  res.json(toV2(order));
 });
 
 seed(prisma)

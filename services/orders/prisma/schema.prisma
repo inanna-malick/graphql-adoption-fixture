@@ -11,6 +11,7 @@ model Order {
   id                 String      @id
   customerRef        String
   status             String
+  shippingStatus     String?
   shippingLine1      String
   shippingCity       String
   shippingRegion     String
