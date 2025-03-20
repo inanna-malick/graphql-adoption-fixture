@@ -43,8 +43,9 @@ check "orders healthy"          200 "$(status "$ORDERS/health")"
 check "inventory healthy"       200 "$(status "$INVENTORY/health")"
 check "customers healthy"       200 "$(status "$CUSTOMERS/health")"
 check "shipping-mock healthy"   200 "$(status "$SHIPPING/health")"
+billing="$(docker ps --filter 'label=com.docker.compose.service=legacy-billing' --format '{{.ID}}' | head -1)"
 check "legacy-billing healthy"  inv_9001 \
-  "$(docker compose exec -T legacy-billing node src/healthcheck.js 2>/dev/null | tr -d '\r')"
+  "$([ -n "$billing" ] && docker exec "$billing" node src/healthcheck.js 2>/dev/null | tr -d '\r')"
 
 echo "auth"
 check "orders rejects no token"     401 "$(status "$ORDERS/v1/orders")"
